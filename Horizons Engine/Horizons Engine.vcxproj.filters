@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Selection">
+      <UniqueIdentifier>{82a07c4c-5b3c-4766-bdde-f9bc90244238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Selection">
+      <UniqueIdentifier>{19245e90-066c-4609-863b-5fbeee9cf427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{bc2570fa-d53d-4656-958b-1bd376aab557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{c123f7c4-7af8-49d7-b8ce-99641b4c1b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texturing">
+      <UniqueIdentifier>{c3c72c03-394c-4fee-9199-b9d9ba121d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texturing">
+      <UniqueIdentifier>{5d652995-d530-48a9-96c7-d0105aa39961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes/Mesh">
+      <UniqueIdentifier>{a23f2cce-43c7-4805-b3c5-39c5788a727a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shapes/Mesh">
+      <UniqueIdentifier>{8ef510bf-4db0-4d92-8db1-01b0ae733145}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeX.cpp">
+      <Filter>Source Files\Shapes/Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Shapes/Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="NewShape.cpp">
+      <Filter>Source Files\Shapes/Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SelMove.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="SelScale.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="SelRot.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="SelColor.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="SelType.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>Source Files\Selection</Filter>
+    </ClCompile>
+    <ClCompile Include="CaStats.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Cross.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Splot.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RenText.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMenu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeStats.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>Source Files\Shapes/Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Texturing</Filter>
+    </ClCompile>
+    <ClCompile Include="Aplex.cpp">
+      <Filter>Source Files\Texturing</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGen.cpp">
+      <Filter>Source Files\Shapes/Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Shapes/Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeX.h">
+      <Filter>Header Files\Shapes/Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="NewShape.h">
+      <Filter>Header Files\Shapes/Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SelMove.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="SelType.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="SelScale.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="SelRot.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="SelColor.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>Header Files\Selection</Filter>
+    </ClInclude>
+    <ClInclude Include="CaStats.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Cross.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMenu.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RenText.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Splot.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeStats.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds.h">
+      <Filter>Header Files\Shapes/Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Aplex.h">
+      <Filter>Header Files\Texturing</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Texturing</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshGen.h">
+      <Filter>Header Files\Shapes/Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
